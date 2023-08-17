@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/orewabeach.css">
+    <title>OrewaBeachLodges</title>
+</head>
+
+<body>
+    <!-- top_nav section start-->
+    <nav id="top_nav" class="w">
+        <img src="images/logo_1.png" alt="">
+        <ul class="nav_info">
+            <li><a href="https://www.aucklandcouncil.govt.nz/parks-recreation/get-outdoors/aklpaths/Pages/path-detail.aspx?ItemId=273" target="_blank">About Orewa Beach</a></li>
+            <li><a href="https://www.newzealand.com/in/things-to-do/" target="_blank">Things To Do</a></li>
+            <li><a href="https://www.inspirock.com/new-zealand/orewa/orewa-lookout-a5389621601" target="_blank">Orewa Lookout</a></li>
+            <li><a href="https://www.tripadvisor.co.nz/Restaurants-g311325-Orewa_North_Island.html" target="_blank">Restaurants</a></li>
+        </ul>
+        <ul class="nav_social">
+            <li>
+                <a href="https://www.instagram.com/orewamarket/" target="_blank"><img src="images/ins.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/search?lang=bg&src=hash&q=%23orewabeach" target="_blank"><img src="images/tw.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/OrewaBeach/" target="_blank"><img src="images/fb.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/discover/orewa-beach"><img src="images/tk.png" alt="" target="_blank"></a>
+            </li>
+        </ul>
+        <div class="my_info">
+            <div class="face">Jiqiang Wang</div>
+            <div class="back">ID:1564710</div>
+        </div>
+    </nav>
+    <!-- top_nav section end-->
+
+
+    <!-- header section start-->
+    <header id="header">
+        <div class="header_text">
+            <p id="h1">Hotels,</p>
+            <p id="h2">Apartments,</p>
+            <p id="h3">Holiday rentals... </p>
+            <p id="h4">Your accommodation at the BEST place!</p>
+        </div>
+        <div class="bear"></div>
+    </header>
+    <!-- header section end-->
+
+    <!-- storyboard section start-->
+    <ul id="nav" class="nav">
+        <li>
+            <a class="box" href="pdf/Storyboard_Task_1.pdf" target="_blank">
+                <div class=" front ">Storyboard for Task 1</div>
+                <div class="bottom ">Storyboard for Task 1</div>
+            </a>
+        </li>
+        <li>
+            <a class="box " href="pdf/Storyboard_Task_2.pdf " target="_blank">
+                <div class="front ">Storyboard for Task 2</div>
+                <div class="bottom ">Storyboard for Task 2</div>
+            </a>
+        </li>
+        <li>
+            <a class="box " href="pdf/Wireframe.pdf " target="_blank">
+                <div class="front">Wireframe</div>
+                <div class="bottom">Wireframe</div>
+            </a>
+        </li>
+
+    </ul>
+    <!-- storyboard section end-->
+
+    <!-- booking form section start -->
+    <form action="" id="booking_frm">
+        <!-- first page start-->
+        <div id="firstPage" class="tab">
+            <p class="booking_txt">Booking for Your Accommodation <br>
+                <span class="slt_color">Select Color <input type="color" id="input_color" class="input_color" onchange="backgroundColorChanged()"></span>
+                <progress value="25" max="100" style="width: 802px;">25%</progress>
+            </p>
+
+            <label for="check_in_date" class="label_style">Choose Check-in Date</label> <br>
+            <input id="check_in_date" type="date" class="input_style" name="check_in_date"> <br>
+
+            <label for="check_out_date" class="label_style">Choose Check-out Date</label><br>
+            <input id="check_out_date" type="date" class="input_style" name="check_out_date"> <br>
+
+            <label for="adult" class="label_style">Number of adults</label> <br>
+            <input id="adult" type="number" class="input_style" min="1" name="adult"> <br>
+
+            <label for="children" class="label_style">Number of children</label> <br>
+            <input id="children" type="number" class="input_style" min="0" name="children"> <br>
+        </div>
+        <!-- first page end -->
+
+        <!-- second page start-->
+        <div id="secondPage" class="tab">
+
+            <p class="booking_txt">Booking for Your Accommodation <br>
+                <span class="slt_color">Select Color <input type="color" id="input_color" class="input_color" onchange="backgroundColorChanged()"></span>
+                <progress value="50" max="100" style="width: 802px;">50%</progress>
+            </p>
+
+            <label for="first_name" class="label_style">First Name</label> <br>
+            <input id="first_name" type="text" class="input_style" name="first_name"> <br>
+
+            <label for="last_name" class="label_style">Last Name</label><br>
+            <input id="last_name" type="text" class="input_style" name="last_name"> <br>
+
+            <label for="contact_number" class="label_style">Contact Number</label> <br>
+            <input id="contact_number" type="tel" class="input_style" name="contact_number"> <br>
+
+            <label for="email_address" class="label_style">Email Address</label> <br>
+            <input id="email_address" type="email" class="input_style" min="0 " name="email_address">
+        </div>
+        <!-- second page end -->
+
+        <!-- third page start-->
+        <div id="thirdPage" class="tab">
+
+            <p class="booking_txt">Booking for Your Accommodation <br>
+                <span class="slt_color">Select Color <input type="color" id="input_color" class="input_color" onchange="backgroundColorChanged()"></span>
+                <progress value="75" max="100" style="width: 802px;">75%</progress>
+            </p>
+
+            <p class="cooking_facility"> Need cooking facilities?</p>
+            <div class="booking_facility_description">
+                <input type="radio" id="cooking_yes" class="radio_style" name="cooking" value="yes">
+                <label for="cooking_yes">Yes</label>
+                <input type="radio" id="cooking_no" class="radio_style" name="cooking" value="no" checked="checked">
+                <label for="cooking_no">No</label>
+            </div>
+
+            <p class="need_equipment"> Need any equipments?</p>
+            <div class="booking_facility_description">
+                <input type="checkbox" id="goggles" class="radio_style" name="equipment" value="Swimming goggles">
+                <label for="goggles">Swimming goggles</label>
+                <input type="checkbox" id="surfboard" class="radio_style" name="equipment" value="Surfboard ">
+                <label for="surfboard">Surfboard</label>
+                <input type="checkbox" id="kayaks" class="radio_style" name="equipment" value="kayaks">
+                <label for="kayaks ">Kayaks</label>
+            </div>
+
+            <p class="message">Write down additional messages:</p> <br>
+            <textarea id="add_message" class="add_message" name="add_message" rows="5" cols="64"></textarea>
+
+            <input type="checkbox" id="agreement" class="radio_style" name="agreement" value="Agreed">
+            <label for="agreement"> I agree with the local native conservation initiative agreement.</label> <br>
+        </div>
+        <!-- third page end -->
+        <!-- printing page start -->
+        <div id="printingPage" class="tab">
+            <p class="booking_txt">Booking for Your Accommodation <br>
+                <span class="slt_color">Select Color <input type="color" id="input_color" class="input_color" onchange="backgroundColorChanged()"></span>
+                <progress value="100" max="100" style="width: 802px;">100%</progress>
+            </p>
+            <ul>
+                <li>Check-in Date : <span id="cid_span"></span></li>
+                <li>Check-out Date : <span id="cod_span"></span></li>
+                <li>Adult : <span id="adult_number"></span></li>
+                <li>children : <span id="child_number"></span></li>
+                <li>First Name : <span id="fname"></span></li>
+                <li>Last Name : <span id="lname"></span></li>
+                <li>Telephone : <span id="tel"></span></li>
+                <li>Email : <span id="email"></span></li>
+                <li>Cooking Facilities : <span id="cooking"></span></li>
+                <li>Equipments : <span id="equipment"></span></li>
+                <li>Additional Information : <span id="add_info"></span></li>
+            </ul>
+        </div>
+        <!-- printing page end -->
+        <!-- button section start -->
+        <div class="btn_set">
+            <button type="button" id="btn_previous" class="btn_style" onclick="nextPrev(-1)">Previous</button>
+            <button type="button" id="btn_next" class="btn_style" onclick="nextPrev(1)">Next</button>
+        </div>
+        <!-- button section end -->
+    </form>
+    <!-- booking form section end -->
+
+    <!-- slider section start -->
+    <ul class="slider">
+        <li class="slider_item">relaxation</li>
+        <li class="slider_item">entertainment</li>
+        <li class="slider_item">Enjoying</li>
+
+    </ul>
+    <!-- slider section end -->
+
+    <footer id="footer">
+        <div class="car" id="car">
+            <a href="https://www.lamborghini.com" target="_blank"><img src="images/car.png" alt="" width="251" height="130">
+                <span class="hotSale">Hot sale !!</span>
+            </a>
+            <button type="button" onClick="carClose()" class="carClose">Close</button>
+        </div>
+    </footer>
+    <script type="text/javascript " src="js/orewabeach.js "></script>
+
+</body>
+
+</html>
