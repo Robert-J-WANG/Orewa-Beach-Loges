@@ -144,7 +144,7 @@ body {
   0% {
   }
 
-  35% {
+  50% {
     font-size: 50px;
     color: white;
     padding-top: 100px;
@@ -152,19 +152,12 @@ body {
     text-shadow: rgb(210, 13, 137) 0.1em 0.1em 0.5em;
   }
 
-  65% {
-    font-size: 50px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 300px;
-    text-shadow: rgb(52, 245, 4) 0.1em 0.1em 0.5em;
-  }
 
   100% {
     font-size: 30px;
     color: transparent;
-    padding-top: 50px;
-    padding-left: 1000px;
+    padding-top: 100px;
+    padding-left: 300px;
   }
 }
 
