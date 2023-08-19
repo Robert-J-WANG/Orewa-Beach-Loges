@@ -466,9 +466,10 @@ body {
 
 #footer {
   position: relative;
+  background-color: #e77070;
   height: 400px;
   margin: 10px 0;
-  background: url(../images/bg_lower.jpg) -400px -860px no-repeat;
+  background: url(../images/bg_lower.jpg) center center/cover no-repeat;
 }
 
 .car {
